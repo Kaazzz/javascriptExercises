@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <title>Prefi Hands On</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="first-problem">
+        <h1> Problem 1 : </h1>
+        <label>1st Number : </label>
+        <input type="number" id="num1" required></br></br>
+        <label>2nd Number: </label>
+        <input type="number" id="num2" required></br></br>
+        <button onclick="operation('mult')">Multiply</button>
+        <button onclick="operation('div')">Divide</button>
+        <p>The Result Is : </p>
+        <p id="answer"></p>
+    </div>
+
+    <div class="second-problem">
+        <h1>Problem 2:</h1>
+        <label>Input a Guess Number 1 - 10 ONLY!: </label>
+        <input type="number" id="rand"></label>
+        <button onclick="guess()">Click to Guess!</button>
+    </div>
+
+    <div class="third-problem">
+        <h1>Problem 3:</h1>
+        <label>Input Integer 1: </label>
+        <input type="number" id="int1"></label></br></br>
+        <label>Input Integer 2: </label>
+        <input type="number" id="int2"></label></br></br>
+        <label>Input Integer 3: </label>
+        <input type="number" id="int3"></label></br></br>
+        <button onclick="greatest()">Generate Greatest</button>
+        <p id="greatestInt"></p>
+    </div>
+
+    
+    <div class="fourth-problem">
+        <h1>Problem 4:</h1>
+        <label>Input Integer 1: </label>
+        <input type="number" id="int11"></label></br></br>
+        <label>Input Integer 2: </label>
+        <input type="number" id="int22"></label></br></br>
+        <label>Input Integer 3: </label>
+        <input type="number" id="int33"></label></br></br>
+        <button onclick="displayResult()">Check Numbers</button>
+        <p id="ambotUnsaNi"></p>
+    </div>
+
+    <div class="fifth-problem">
+        <h1>Problem 5:</h1>
+        <label>Enter a String:  </label>
+        <input id="string"></label>
+        <button onclick="revString()">Reverse String</button>
+        <p id="StringRev"></p>
+    </div>
+
+    <div class="sixth-problem">
+        <h1>Problem 6:</h1>
+        <label>Enter a String:  </label>
+        <input id="stringNew"></label>
+        <button onclick="palindromeCheck()">Check Palindrome</button>
+    </div>
+
+    <div class="sixth-problem">
+        <h1>Problem 7:</h1>
+        <label>Enter an Angle:  </label>
+        <input id="angle"></label>
+        <button onclick="findAngle()">Angle Type</button>
+        <p id="typeOfAngle"></p>
+    </div>
+
+</body>
+
+</html>
